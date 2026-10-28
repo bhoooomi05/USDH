@@ -1,0 +1,62 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# SQLite database files (review before committing)
+# Uncomment if the database contains private or local-only data:
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# User-uploaded or generated files
+# Uncomment if these folders contain private or runtime-generated files:
+# static/documents/*
+# static/images/*
+# static/certificates/*
+# static/folders/*
+# static/study_materials/*
+
+# Keep placeholders in upload directories
+!static/documents/.gitkeep
+!static/images/.gitkeep
+!static/certificates/.gitkeep
+!static/folders/.gitkeep
+!static/study_materials/.gitkeep
