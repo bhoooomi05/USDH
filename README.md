@@ -1,24 +1,36 @@
-# USDH (Unified Skill Development Hub)
+# USDH — Unified Skill Development Hub
 
-# Overview:
-Despite significant government investment in skill development, citizens struggle to find and track courses, e-resources, scholarships, and schemes spread across multiple platforms. Tracking progress, accessing local skill centers, and managing documents is often challenging. The Unified Skill Development Hub solves these issues by bringing everything into one place, making skill development and career planning easier and more accessible. Instead of searching multiple websites, users can access everything in one place. With features like a career guidance chatbot, map showcasing offline skill centres and job openings, resume builder, and personalized study planners, USDH goes beyond just providing information—it empowers users to actively shape their careers and learning journeys.
+## Overview
 
-# Features
-Search & Explore Courses: Aggregated courses from official government portals like NPTEL, NSDC, Skill India, etc.
-Schemes & Scholarships: View and save government skill development schemes, e-resources, and financial aid options.
-Track Progress: Track your enrolled courses.
-Chatbot: Career guidance chatbot for roadmap suggestions and opportunity exploration.
-Resume & Study Plan Builder: Create personalized resumes and daily study plans.
-Offline Access with Map Integration: View offline maps of skill centers and local job openings.
-User Profile Dashboard: Manage saved data, uploaded documents, personal notes and certificates for easy access.
-Admin Controls: Add, edit, or delete content like courses and schemes (for backend/admin).
+The **Unified Skill Development Hub (USDH)** is a centralized platform designed to simplify skill development, learning, and career planning. Information about courses, government schemes, scholarships, e-resources, and employment opportunities is often scattered across multiple platforms, making it difficult for learners to discover relevant opportunities and track their progress.
 
-# Tech Stack
-Language: Python
-Frontend: Dash
-Backend: SQLite
-Data Sources: myScheme, Skill India, NPTEL, AICTE, NSDC, State Govt PDFs
+USDH brings these resources together in one place, helping users explore learning opportunities, organize their study journey, manage career documents, and make informed career decisions. With integrated career guidance, resume building, personalized study planning, and offline skill-centre discovery, the platform supports users throughout their learning and career development journey.
 
+## Key Features
+
+- **Course Discovery:** Explore skill development courses and learning opportunities from platforms such as NPTEL, NSDC, Skill India, and other relevant portals.
+- **Government Schemes & Scholarships:** Discover skill development schemes, scholarships, financial assistance, and educational resources.
+- **Learning Progress Tracking:** Track enrolled courses and monitor learning progress in one place.
+- **Career Guidance Chatbot:** Get career guidance, explore potential career paths, and receive roadmap suggestions.
+- **Resume Builder:** Create professional resumes using customizable templates.
+- **Personalized Study Planner:** Organize learning goals, study schedules, and daily tasks.
+- **Offline Skill Centre & Job Discovery:** Explore nearby offline skill centres and local job opportunities through map integration.
+- **Personalized User Dashboard:** Manage saved resources, personal notes, uploaded documents, and certificates.
+- **Administrative Management:** Provide administrative capabilities to manage platform content, including courses, schemes, and learning resources.
+
+## Technology Stack
+
+| Component | Technology |
+|---|---|
+| Programming Language | Python |
+| Frontend & UI | Dash |
+| Backend | Python |
+| Database | SQLite |
+| Data Sources | myScheme, Skill India, NPTEL, AICTE, NSDC, and state government resources |
+
+## Project Objective
+
+USDH aims to make skill development resources more accessible by bringing learning opportunities, government initiatives, career guidance, and personal learning management into a unified platform. It helps users move from discovering opportunities to organizing their learning and planning their careers more effectively.
 # Implementation:
 Signup/Login page
 <img width="1034" height="464" alt="image" src="https://github.com/user-attachments/assets/9ad22602-bfa2-45c4-9e3e-3040738443ae" />
